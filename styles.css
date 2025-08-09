@@ -168,7 +168,6 @@
 #about{
     display: flex;
     justify-content: center;
-    border: 1px solid gray;
 }
 #about .about-me{
     text-align: center;
@@ -277,4 +276,122 @@
 .about-me{
     color: white;
 }
+
+#contact i {
+    transition: transform 0.2s ease;
+}
+
+#contact i:hover {
+    transform: scale(1.2);
+}
+
+#contact form input,
+#contact form textarea {
+    border-radius: 8px;
+}
+
+#contact form button {
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.animated-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #333;
+    width: 0;
+    animation: typing 2.5s steps(20, end) forwards, blink 0.75s step-end infinite;
+    color: #2c3e50; /* deep, professional blue-gray */
+}
+
+/* Typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 14ch } /* "Hi! Charles Yu" is 14 characters */
+}
+
+/* Blinking cursor */
+@keyframes blink {
+    50% { border-color: transparent }
+}
+
+/* Fade + Slide in for the about-me text */
+.about-me {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* About Section Styling */
+#about {
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 1px;
+}
+
+.section-divider {
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    border: none;
+    margin: 10px auto 0 auto;
+}
+
+.about-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #007bff;
+}
+
+.about-name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.about-role {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.about-subtitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-card p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
 
