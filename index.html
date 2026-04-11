@@ -1,444 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles Yu Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-</head>
+    <title>Charles Yu — Data Scientist & Software Engineer</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Charles Yu — Master of Applied Data Science student at UChicago, former Goldman Sachs full-stack engineer. Data science, machine learning, and software projects."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-<style>
-    main {
-        background-color: #e9f5ff; /* Replace with your chosen color */
-    }
-</style>
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Charles Yu — Data Scientist & Software Engineer" />
+    <meta
+      property="og:description"
+      content="Data scientist and software engineer. UChicago MS, ex-Goldman Sachs. Projects in ML, OCR, and quantitative finance."
+    />
+    <meta property="og:image" content="/images/photo.jpg" />
+    <meta property="og:url" content="https://charles001203.github.io" />
 
-<body>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Charles Yu — Data Scientist & Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Data scientist and software engineer. UChicago MS, ex-Goldman Sachs."
+    />
+    <meta name="twitter:image" content="/images/photo.jpg" />
 
-
-    <header>
-        <div id="navbar" class="navbar navbar-dark navbar-expand-md fixed-top">
-            <a class="navbar-brand">Charles Yu</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapse_target">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#hero">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://medium.com/@yuruntang1203" target="_blank">Blog</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-
-        <div class="container-fluid" id="hero">
-            <div class="row">
-                <div class="col-12 col-md-6 pic">
-                    <img src="Pictures/photo.jpg" class="img-fluid" alt="Responsive Image">
-                </div>
-                <div class="col-12 col-md-6 heading">
-                    <h1 class="animated-heading">Hi! I'm Charles Yu</h1>
-                    <p class="about-me">
-                        Data Scientist | Software Developer | Learning is a life-long commitment
-                    </p>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <main>
-
-        <!-- About Section -->
-        <section class="container" id="about">
-            <div class="row mt-5 justify-content-center">
-                <div class="col-lg-8 text-center mb-5">
-                    <h1 class="section-title">About Me</h1>
-                    <hr class="section-divider">
-                </div>
-
-                <div class="col-lg-8 mb-4 about-card">
-                    <h2 class="about-name">Charles Yu</h2>
-                    <h4 class="about-role">Aspiring Data Scientist</h4>
-                    <p>
-                        I'm a passionate data science enthusiast. I'm currently a Master of Applied Data Science student at UChicago and previously worked at Goldman Sachs as a full-stack software engineer.
-                        With strong expertise in both programming and analytical thinking, I enjoy creating efficient, scalable applications and solving real-world data science problems.
-                    </p>
-                </div>
-
-                <div class="col-lg-8 mb-4 about-card">
-                    <h4 class="about-subtitle">Education</h4>
-                    <p>
-                        I hold a dual degree in Data Science and Business Administration from the University of Michigan - Ann Arbor. I'm currently pursuing my master's at the University of Chicago, focusing on data science, machine learning, and artificial intelligence.
-                    </p>
-                </div>
-
-                <div class="col-lg-8 mb-4 about-card">
-                    <h4 class="about-subtitle">Interests</h4>
-                    <p>
-                        Outside of work, I enjoy playing basketball, reading books, and watching movies. I'm also interested in financial markets, algorithmic trading, and web3.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Experience Section -->
-        <section class="container" id="experience">
-            <div class="row mt-5 justify-content-center">
-                <div class="col-lg-8 mb-3 text-center">
-                    <h3 class="fw-bold mb-0" style="font-family: 'Poppins', sans-serif;">
-                        <i class="fas fa-briefcase me-2 text-primary"></i>Professional Experience
-                    </h3>
-                    <hr class="w-50 mx-auto" style="border: 1.5px solid #0d6efd;">
-                </div>
-
-                <!-- Goldman Sachs -->
-                <div class="col-lg-8 mb-4">
-                    <div class="card shadow-lg border-0 rounded-4 hover-card">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-primary">Goldman Sachs</h5>
-                            <h6 class="card-subtitle mb-2 text-muted fst-italic">Full-Stack Software Engineer</h6>
-                            <p class="mt-2">
-                                Developed and maintained financial applications, focusing on robust, secure software solutions.
-                            </p>
-                            <ul class="list-unstyled ms-3">
-                                <li>💻 Developed front-end interfaces using modern JavaScript frameworks</li>
-                                <li>⚙️ Built scalable back-end services</li>
-                                <li>📊 Optimized database queries and data structures</li>
-                                <li>🔐 Implemented security best practices</li>
-                                <li>🤝 Collaborated with product managers and designers</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Data Prophet -->
-                <div class="col-lg-8 mb-4">
-                    <div class="card shadow-lg border-0 rounded-4 hover-card">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-primary">Data Prophet</h5>
-                            <h6 class="card-subtitle mb-2 text-muted fst-italic">Machine Learning
-                                Engineer Intern</h6>
-                            <p>
-                                Focused on data analysis and machine learning applications.
-                            </p>
-                            <ul class="list-unstyled ms-3">
-                                <li>📈 Developed an OCR traceability project that increased model efficiency by 40%</li>
-                                <li>🤖 Created machine learning models for improving
-                                    manufacturing plant KPIs</li>
-                                <li>🔄 Implemented data pipelines for efficient data processing</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Philips Capital Management -->
-                <div class="col-lg-8 mb-5">
-                    <div class="card shadow-lg border-0 rounded-4 hover-card">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-primary">Philips Capital Management</h5>
-                            <h6 class="card-subtitle mb-2 text-muted fst-italic">Financial Data Analyst Intern</h6>
-                            <p>
-                                Predicted market trends using advanced data analysis techniques.
-                            </p>
-                            <ul class="list-unstyled ms-3">
-                                <li>📊 Researched 100+ stocks across 5+ industries; pitched ideas and gained supervisor approval</li>
-                                <li>📉 Formulated recommendations using industry outlook, DCF, and comparative analysis</li>
-                                <li>💡 Contributed ideas that were integrated into the company's portfolio</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Hover Effect CSS -->
-            <style>
-                .hover-card:hover {
-                    transform: translateY(-5px);
-                    box-shadow: 0px 8px 20px rgba(0,0,0,0.15) !important;
-                }
-            </style>
-
-            <!-- FontAwesome for icons -->
-            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-        </section>
-
-
-
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="row">
-                <div class="col-12 col-md-6 col-xl-4 card-col">
-                    <div class="card">
-                        <img class="card-img-top" src="./Pictures/ocr.png">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="./DataProphet Project 4 Presentation.pdf" target="_blank" rel="noopener noreferrer">
-                                    OCR Traceability Project
-                                </a>
-                            </h5>
-                            <p class="card-text">In this project, I developed unsupervised region detection model by
-                                using machine learning algorithms through Python and image processing,
-                                increased model efficiency by 40%. I also Constructed OCR models to read product unit
-                                details from product and supplied data to a front-end human-machine interface (HMI),
-                                enabled inspectors to link quality assessment results with actual product unit. Lastly,
-                                I coded a pipeline for a vision system by making use of object character recognition,
-                                labeled images captured by cameras installed at factory floor with 20% clearer
-                                readability
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 card-col">
-                    <div class="card">
-                        <img class="card-img-top" src="./Pictures/student-mental-health.jpg">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="./Student-Mental-Health-Analysis.pdf" target="_blank" rel="noopener noreferrer">
-                                    Student Mental Health Analysis
-                                </a>
-                            </h5>
-                            <p class="card-text">Developed an end-to-end machine learning project
-                                on a dataset which contains responses from students regarding their mental health status during the era of online learning.
-                                The goal is to find out what factors affect students' academic
-                                performances with machine learning techniques. Trained the
-                                dataset with distinct machine learning algorithms (e.g. Random
-                                Forest, KNN, Logistic Regression, etc.). In
-                                conclusion, by
-                                comparing their performances, it turns out that Random Forest model obtains the highest accuracy of nearly 50%,
-                                while the other three are closely trailing in their accuracies.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 card-col">
-                    <div class="card">
-                        <img class="card-img-top" src="./Pictures/sign-lang.jpg">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="https://github.com/charles001203/My-Data-Science-Projects/blob/main/sign-language-recognition-and-translation/sign_language_recognition_and_translation.pdf"
-                                                      target="_blank">Sign Language and
-                                Translation</a></Table>
-                            </h5>
-                            <p class="card-text">Collaboratively designed and implemented a program leveraging a CNN-based architecture with 50+ layers, trained on a dataset of 100,000 labeled sign language gestures, improving accessibility and inclusivity for hearing-impaired users
-                                Implemented group project in google colaboratory with different Python data science frameworks, such as Pytorch, Numpy, and Tensorflow
-                                Trained model on ChicagoFSWild ASL Finger-spelling dataset over 10 epochs and plot training loss with matplotlib, effectively increased training accuracy from 15% to 40%
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 card-col">
-                    <div class="card">
-                        <img class="card-img-top" src="./Pictures/basketball.jpeg">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="https://github.com/charles001203/nba_analysis_proj"
-                                                      target="_blank">NBA Analysis Project</a></Table>
-                            </h5>
-                            <p class="card-text">In this project, I wrote code in Python and utilized machine learning
-                                algorithms to predict the next NBA final championship
-                                team for season 2020-2021. The five relevant datasets were found in Kaggle which used
-                                BeautifulSoup to extract real time information from the
-                                official NBA website.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 card-col">
-                    <div class="card">
-                        <img class="card-img-top" src="./Pictures/happiness.jpeg">
-                        <div class="card-body">
-                            <h5 class="card-title"><a
-                                    href="https://github.com/charles001203/World-Happiness-Report/tree/master"
-                                    target="_blank">World Happiness Report</a></h5>
-                            <p class="card-text"> In this project, I implemented code in Jupyter Notebook to discover
-                                insights about world's happiness
-                                status with quantifiable metrics. I was able to utlize several statistical techniques to
-                                find the difference of happiness
-                                before and during COVID-19. I also tested and trained several models with different ML
-                                algorithms to find the best model to predict
-                                health life expectancy.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 card-col">
-                    <div class="card">
-                        <img class="card-img-top" src="./Pictures/stock.jpeg">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="https://github.com/charles001203/Trading-Algorithm"
-                                    target="_blank">Trading Algorithms</a></h5>
-
-                            <p class="card-text">In this project, I developed a stock simulation to predict the daily
-                                low and high prices of Apple from 2020-2021.
-                                I also created an investment algorithm strategy by analyzing data collections with
-                                simple moving average and exponential moving average.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-<!--                <div class="col-12  col-md-6 col-xl-4 card-col">-->
-<!--                    <div class="card">-->
-<!--                        <img class="card-img-top" src="./Pictures/amongus.jpeg">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title"><a href="https://github.com/charles001203/AmongUs"-->
-<!--                                    target="_blank">Among Us</a></h5>-->
-
-<!--                            <p class="card-text">In this project, I built an Among Us gaming simulation in C++ to create-->
-<!--                                the shortest path for user to escape the monstrous laboratory-->
-<!--                                Implemented the code using built-in C++ libraries such priority queue and stack and-->
-<!--                                algorithms such as MST, TSP, and OPTTSP.-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-12 col-md-6 col-xl-4 card-col">-->
-<!--                    <div class="card">-->
-<!--                        <img class="card-img-top" src="./Pictures/database.png">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title"><a href="https://github.com/charles001203/SillyQL_Project"-->
-<!--                                    target="_blank">Silly QL</a></h5>-->
-<!--                            <p class="card-text">In this project, I created a relational database with an interface-->
-<!--                                based on a subset of a standard query language.-->
-<!--                                I also implemented backend with C++, gained exposure to code that make uses of data-->
-<!--                                structures, including vector, deque, and priority queue-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-            </div>
-        </section>
-    </main>
-    <!-- Include Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
-    <footer id="contact" class="bg-light py-5">
-        <div class="container text-center">
-            <h4 class="mb-4">Let's Connect!</h4>
-
-            <!-- Social Links -->
-            <div class="mb-4">
-                <a href="https://github.com/charles001203" target="_blank" class="mx-3 text-dark">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/cy1203" target="_blank" class="mx-3 text-primary">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                <a href="mailto:charles.yu.1203@gmail.com" class="mx-3 text-danger">
-                    <i class="fas fa-envelope fa-2x"></i>
-                </a>
-            </div>
-
-            <!-- Book a Meeting Button -->
-            <div class="mb-4">
-                <a href="https://calendly.com/charles-yu-1203/30min" target="_blank"
-                   class="btn btn-outline-primary">
-                    Book a Meeting
-                </a>
-            </div>
-
-            <!-- Contact Form -->
-            <form id="contactForm">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 mb-3">
-                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-                    </div>
-                    <div class="col-12 mb-3">
-                        <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <div class="col-12 text-center">
-                        <button type="submit" class="btn btn-primary">
-                            <span id="buttonText">Send Message</span>
-                            <span id="loadingSpinner" class="spinner-border spinner-border-sm d-none"></span>
-                        </button>
-                    </div>
-                    <div class="col-12 mt-3">
-                        <div id="formMessage" class="text-center"></div>
-                    </div>
-                </div>
-            </form>
-
-            <script>
-                document.getElementById('contactForm').addEventListener('submit', async function(e) {
-                    e.preventDefault();
-
-                    const form = e.target;
-                    const formMessage = document.getElementById('formMessage');
-                    const loadingSpinner = document.getElementById('loadingSpinner');
-                    const buttonText = document.getElementById('buttonText');
-
-                    formMessage.textContent = '';
-                    loadingSpinner.classList.remove('d-none');
-                    buttonText.textContent = 'Sending...';
-
-                    const formData = new FormData(form);
-
-                    try {
-                        const response = await fetch("https://formspree.io/f/mnnzladk", {
-                            method: "POST",
-                            body: formData,
-                            headers: { 'Accept': 'application/json' }
-                        });
-
-                        loadingSpinner.classList.add('d-none');
-                        buttonText.textContent = 'Send Message';
-
-                        if (response.ok) {
-                            // Show success message
-                            // Option 1: Inline success
-                            formMessage.innerHTML = '<span class="text-success">Message sent!✅</span>';
-                            form.reset();
-                        } else {
-                            const data = await response.json();
-                            if (Object.hasOwn(data, 'errors')) {
-                                formMessage.innerHTML = `<span class="text-danger">${data.errors.map(e => e.message).join(", ")}</span>`;
-                            } else {
-                                formMessage.innerHTML = '<span class="text-danger">Oops! Something went wrong.</span>';
-                            }
-                        }
-                    } catch (error) {
-                        loadingSpinner.classList.add('d-none');
-                        buttonText.textContent = 'Send Message';
-                        formMessage.innerHTML = '<span class="text-danger">Error sending message. Please try again.</span>';
-                    }
-                });
-            </script>
-
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
-        crossorigin="anonymous"></script>
-    
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
+    <script>
+      // Prevent dark mode flash
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
