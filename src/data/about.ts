@@ -15,6 +15,6 @@ export const about: AboutCard[] = [
   {
     heading: 'Interests',
     body:
-      "Outside of work, I enjoy playing basketball, reading books, and watching movies. I'm also interested in financial markets, algorithmic trading, and web3.",
+      "Outside of work, I enjoy playing basketball, reading books, and watching movies. I'm also interested in financial markets and real estate investing.",
   },
 ];
