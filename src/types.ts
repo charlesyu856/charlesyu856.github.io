@@ -1,7 +1,8 @@
 export type Experience = {
   company: string;
   role: string;
-  period?: string;
+  start: string; // 'YYYY-MM'
+  end: string; // 'YYYY-MM' or 'Present'
   summary: string;
   bullets: string[];
 };

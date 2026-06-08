@@ -70,8 +70,8 @@ export function Contact() {
                 <a href="mailto:charles.yu.1203@gmail.com" className="flex items-center gap-3 text-slate-700 transition hover:text-accent dark:text-slate-300 dark:hover:text-accent-light">
                   <Mail size={18} /> charles.yu.1203@gmail.com
                 </a>
-                <a href="https://github.com/charles001203" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-700 transition hover:text-accent dark:text-slate-300 dark:hover:text-accent-light">
-                  <Github size={18} /> github.com/charles001203
+                <a href="https://github.com/charlesyu856" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-700 transition hover:text-accent dark:text-slate-300 dark:hover:text-accent-light">
+                  <Github size={18} /> https://github.com/charlesyu856
                 </a>
                 <a href="https://www.linkedin.com/in/cy1203" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-700 transition hover:text-accent dark:text-slate-300 dark:hover:text-accent-light">
                   <Linkedin size={18} /> linkedin.com/in/cy1203

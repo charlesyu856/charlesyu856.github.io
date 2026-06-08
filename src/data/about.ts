@@ -3,14 +3,13 @@ import type { AboutCard } from '../types';
 export const about: AboutCard[] = [
   {
     heading: 'Career',
-    subheading: 'Aspiring Data Scientist',
     body:
-      "I'm a passionate data science enthusiast. I'm currently a Master of Applied Data Science student at UChicago and previously worked at Goldman Sachs as a full-stack software engineer. With strong expertise in both programming and analytical thinking, I enjoy creating efficient, scalable applications and solving real-world data science problems.",
+      "I'm a data science intern at Xome, a real estate company owned by Rocket. Previously, I worked at Goldman Sachs as a software engineer. With strong expertise in both programming and analytical thinking, I enjoy creating efficient, scalable applications and solving real-world data science problems.",
   },
   {
     heading: 'Education',
     body:
-      "I hold a dual degree in Data Science and Business Administration from the University of Michigan — Ann Arbor. I'm currently pursuing my master's at the University of Chicago, focusing on data science, machine learning, and artificial intelligence.",
+      "I hold a dual degree in Data Science and Business Administration from the University of Michigan — Ann Arbor. I'm currently pursuing master of data science degree at the University of Chicago.",
   },
   {
     heading: 'Interests',

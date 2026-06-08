@@ -1,6 +1,6 @@
 # Charles Yu — Personal Website
 
-My personal portfolio, live at [charles001203.github.io](https://charles001203.github.io).
+My personal portfolio, live at [charlesyu856.github.io](https://charlesyu856.github.io).
 
 Originally a static HTML/CSS/Bootstrap site, now rebuilt as a modern React single-page app with a light/dark theme, scroll-triggered animations, and a data-driven content layer.
 

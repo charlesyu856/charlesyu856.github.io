@@ -53,7 +53,7 @@ export function Hero() {
           </div>
 
           <div className="mt-10 flex items-center gap-5 text-white/80">
-            <a href="https://github.com/charles001203" target="_blank" rel="noopener noreferrer" className="transition hover:text-white"><Github size={20} /></a>
+            <a href="https://github.com/charlesyu856" target="_blank" rel="noopener noreferrer" className="transition hover:text-white"><Github size={20} /></a>
             <a href="https://www.linkedin.com/in/cy1203" target="_blank" rel="noopener noreferrer" className="transition hover:text-white"><Linkedin size={20} /></a>
             <a href="mailto:charles.yu.1203@gmail.com" className="transition hover:text-white"><Mail size={20} /></a>
           </div>
