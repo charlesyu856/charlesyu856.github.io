@@ -3,17 +3,15 @@ import type { Experience } from '../types';
 export const experience: Experience[] = [
     {
     company: 'Xome',
-    role: 'Data Science Intern',
+    role: 'Data Engineer and Scientist Intern',
     start: '2026-05',
     end: 'Present',
     summary:
-      'Developed and maintained financial applications, focusing on robust, secure software solutions.',
+      'Created a data-driven Economic Insights Engine that provides actionable insights for real estate professionals.',
     bullets: [
-      'Developed front-end interfaces using modern JavaScript frameworks',
-      'Built scalable back-end services',
-      'Optimized database queries and data structures',
-      'Implemented security best practices',
-      'Collaborated with product managers and designers',
+      'Architected an end-to-end Medallion Lakehouse (Bronze/Silver/Gold) on Microsoft Fabric using PySpark and Delta Lake.',
+      'Automated distributed ETL/ELT pipelines across 5 refresh cadences and developed a 25-check SQL validation suite for Gold-layer tables.',
+      'Built interactive dashboard visualizations in PowerBI and presented technical architecture and business impact to senior stakeholders.',
     ],
   },
   {
